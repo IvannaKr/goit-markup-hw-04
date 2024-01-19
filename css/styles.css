@@ -329,11 +329,17 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  
-  
 }
-.social-link-icon .icon-element {
-  fill: none;
+
+  .social-link-icon:hover {
+    background-color: #404bbf; 
+  }
+  
+..social-link-icon:focus {
+  background-color: #404bbf; 
+}
+ .icon-element {
+  fill: #f4f4fd;
 }
 
 .icons:hover {
