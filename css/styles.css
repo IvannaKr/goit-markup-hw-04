@@ -335,7 +335,7 @@ img {
     background-color: #404bbf; 
   }
   
-..social-link-icon:focus {
+.social-link-icon:focus {
   background-color: #404bbf; 
 }
  .icon-element {
