@@ -408,6 +408,11 @@ margin: 24px 100px;
   flex-shrink: 0;
   padding: 100px 0;
 }
+
+.footer-item {
+  display: flex;
+  align-items: baseline;
+}
 .footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -454,11 +459,13 @@ margin: 24px 100px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-social-links {
   display: flex;
   gap: 16px;
+  
 
 
 }
@@ -481,6 +488,8 @@ height: 24px;
   flex-shrink: 0;
 }
 .
-.footer-container {
+.footer-container .container {
+  margin-right: 120px;
+
 }
 /*--------------------------------*/
