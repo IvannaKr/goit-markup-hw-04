@@ -233,7 +233,10 @@ img {
 border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 background: var(--CLOUD, #F4F4FD);
 margin-bottom: 8px;
-
+display: flex;
+align-items: center;
+justify-content: center;
+height: 112px;
 }
 
 .photo-icon {
