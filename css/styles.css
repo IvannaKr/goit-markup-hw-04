@@ -331,6 +331,8 @@ img {
   justify-content: center;
   width: 100%;
   height: 100%;
+
+  border-radius: 50%;
 }
 
 .social-link-icon {
@@ -344,28 +346,13 @@ img {
   width: 40px;
 }
 .social-link {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.social-link:hover {
+.social-links:hover {
   background-color: #404bbf;
 }
 
-.social-link:focus {
+.social-links:focus {
   background-color: #404bbf;
-}
-
-.icons:hover {
-  fill: aqua;
-}
-.icons {
-  width: 16px;
-  height: 16px;
 }
 
 .team-container {
