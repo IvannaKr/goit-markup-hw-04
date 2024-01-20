@@ -454,7 +454,6 @@ img {
 .footer-item {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -549,8 +548,9 @@ img {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+  fill: #f4f4fd;
 }
-.footer-container container {
+.footer-container {
   margin-right: 120px;
 }
 .footer-icon-element:hover {
